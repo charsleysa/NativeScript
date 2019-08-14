@@ -5,7 +5,7 @@ import { Tabs } from "tns-core-modules/ui/tabs";
 export function goToFirst(args: EventData) {
   console.log("---> goToFirst");
   const page = <Page>(<any>args.object).page;
-  const tabsNav = <Tabs>page.getViewById("tabsNav");
+  const tabsNav = <Tabs>page.getViewById("bottomNav");
 
   tabsNav.selectedIndex = 0;
 }
@@ -13,7 +13,7 @@ export function goToFirst(args: EventData) {
 export function goToSecond(args: EventData) {
   console.log("---> goToSecond");
   const page = <Page>(<any>args.object).page;
-  const tabsNav = <Tabs>page.getViewById("tabsNav");
+  const tabsNav = <Tabs>page.getViewById("bottomNav");
 
   tabsNav.selectedIndex = 1;
 }
@@ -21,7 +21,7 @@ export function goToSecond(args: EventData) {
 export function goToThird(args: EventData) {
   console.log("---> goToThird");
   const page = <Page>(<any>args.object).page;
-  const tabsNav = <Tabs>page.getViewById("tabsNav");
+  const tabsNav = <Tabs>page.getViewById("bottomNav");
 
   tabsNav.selectedIndex = 2;
 }

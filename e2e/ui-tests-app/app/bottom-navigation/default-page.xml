@@ -1,6 +1,6 @@
 <Page>
 
-  <Tabs id="tabsNav">
+  <BottomNavigation id="bottomNav">
 
     <TabStrip>
 
@@ -35,6 +35,6 @@
       </StackLayout>
     </TabContentItem>
 
-  </Tabs>
+  </BottomNavigation>
 
 </Page>
